@@ -20,7 +20,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="font-semibold text-lg text-foreground" data-testid="nav-logo">
-            Harsh Patel
+            HP
           </div>
           
           {/* Desktop Navigation */}
