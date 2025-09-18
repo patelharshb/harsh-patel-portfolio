@@ -1,3 +1,5 @@
+import resumePdf from "@assets/Harsh Patel Resume_1758227471827.pdf";
+
 export default function HeroSection() {
   return (
     <header id="about" className="pt-24 pb-16 bg-gradient-to-br from-primary/5 via-background to-accent/10">
@@ -18,6 +20,17 @@ export default function HeroSection() {
               <i className="fas fa-envelope text-primary"></i>
               <span>pharshb1781@gmail.com</span>
             </div>
+          </div>
+          <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
+            <a 
+              href={resumePdf}
+              download="Harsh_Patel_Resume.pdf"
+              className="inline-flex items-center px-6 py-3 bg-destructive text-destructive-foreground rounded-lg hover:bg-destructive/90 transition-colors font-medium"
+              data-testid="button-download-resume"
+            >
+              <i className="fas fa-download mr-2"></i>
+              Download Resume
+            </a>
           </div>
           <div className="flex justify-center space-x-6">
             <a 
