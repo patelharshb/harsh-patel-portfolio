@@ -34,7 +34,7 @@ export default function FinanceSection() {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start" data-testid="market-analysis-1">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Regular research on macroeconomic indicators and market fundamentals</span>
+                <span>In-depth research on company earnings, sector performance, and market valuations</span>
               </li>
               <li className="flex items-start" data-testid="market-analysis-2">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
