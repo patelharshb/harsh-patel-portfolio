@@ -14,8 +14,11 @@ export default function SkillsSection() {
   ];
 
   const databases = [
-    "SQLite", "PostgreSQL", "AWS EC2", "ECS", "ECR", "SNS", 
-    "S3", "Redshift", "Lambda", "SageMaker"
+    "SQLite", "PostgreSQL"
+  ];
+
+  const aws = [
+    "EC2", "ECS", "ECR", "SNS", "S3", "Redshift", "Lambda", "SageMaker"
   ];
 
   return (
@@ -23,7 +26,7 @@ export default function SkillsSection() {
       <h2 className="text-3xl font-bold text-foreground mb-8 text-center" data-testid="skills-title">
         Technical Skills
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
         <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 rounded-xl shadow-lg border border-blue-200 dark:border-blue-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-languages">
           <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-100 mb-4 flex items-center">
             <i className="fas fa-code text-blue-600 dark:text-blue-400 mr-2 text-xl"></i>
@@ -80,8 +83,8 @@ export default function SkillsSection() {
         
         <div className="bg-gradient-to-br from-orange-50 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-xl shadow-lg border border-orange-200 dark:border-orange-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-database">
           <h3 className="text-lg font-semibold text-orange-900 dark:text-orange-100 mb-4 flex items-center">
-            <i className="fas fa-cloud text-orange-600 dark:text-orange-400 mr-2 text-xl"></i>
-            Database & Cloud
+            <i className="fas fa-database text-orange-600 dark:text-orange-400 mr-2 text-xl"></i>
+            Databases
           </h3>
           <div className="flex flex-wrap gap-2">
             {databases.map((db, index) => (
@@ -91,6 +94,24 @@ export default function SkillsSection() {
                 data-testid={`skill-database-${index}`}
               >
                 {db}
+              </span>
+            ))}
+          </div>
+        </div>
+        
+        <div className="bg-gradient-to-br from-yellow-50 to-amber-100 dark:from-yellow-900/30 dark:to-amber-900/30 rounded-xl shadow-lg border border-yellow-200 dark:border-yellow-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-aws">
+          <h3 className="text-lg font-semibold text-yellow-900 dark:text-yellow-100 mb-4 flex items-center">
+            <i className="fab fa-aws text-yellow-600 dark:text-yellow-400 mr-2 text-xl"></i>
+            AWS Services
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {aws.map((service, index) => (
+              <span 
+                key={index} 
+                className="px-3 py-1.5 bg-yellow-600 text-white rounded-lg text-sm font-medium hover:bg-yellow-700 transition-colors duration-200 cursor-default shadow-sm"
+                data-testid={`skill-aws-${index}`}
+              >
+                {service}
               </span>
             ))}
           </div>
