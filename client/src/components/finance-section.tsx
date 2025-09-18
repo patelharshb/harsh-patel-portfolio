@@ -18,7 +18,7 @@ export default function FinanceSection() {
               </li>
               <li className="flex items-start" data-testid="investment-focus-2">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Daily analysis of economic markets and financial trends</span>
+                <span>Daily analysis of economic markets, financial trends, and macroeconomic indicators to inform investment decisions</span>
               </li>
               <li className="flex items-start" data-testid="investment-focus-3">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
