@@ -5,6 +5,7 @@ import SkillsSection from "@/components/skills-section";
 import ExperienceSection from "@/components/experience-section";
 import ProjectsSection from "@/components/projects-section";
 import FinanceSection from "@/components/finance-section";
+import HobbiesSection from "@/components/hobbies-section";
 import Footer from "@/components/footer";
 import { useEffect } from "react";
 
@@ -61,6 +62,7 @@ export default function Home() {
         <ExperienceSection />
         <ProjectsSection />
         <FinanceSection />
+        <HobbiesSection />
       </main>
       <Footer />
     </div>
