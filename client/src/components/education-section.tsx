@@ -44,6 +44,9 @@ export default function EducationSection() {
               Database Systems
             </span>
             <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+              DSA
+            </span>
+            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
               Operating Systems
             </span>
           </div>
