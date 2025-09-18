@@ -12,7 +12,7 @@ export default function HeroSection() {
             Software Engineering Graduate | Full-Stack Developer | Finance Enthusiast
           </p>
           <p className="text-lg text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed" data-testid="hero-summary">
-            Specializing in Artificial Intelligence and Machine Learning with extensive experience in data analysis and development. 
+            Specialized in Artificial Intelligence and Machine Learning with extensive experience in data analysis and software development. 
             Passionate about leveraging technical expertise alongside finance interests to create innovative solutions at the intersection of technology and financial markets.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
