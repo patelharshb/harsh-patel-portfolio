@@ -7,7 +7,7 @@ export default function Footer() {
             Let's Connect
           </h3>
           <p className="text-muted-foreground mb-6 max-w-2xl mx-auto" data-testid="footer-description">
-            I'm actively seeking full-stack software engineering opportunities where I can apply my technical skills 
+            I am actively seeking software development opportunities where I can apply my technical skills 
             and contribute to innovative projects. Open to discussing how my experience can benefit your team.
           </p>
           <div className="flex justify-center space-x-6 mb-6">
