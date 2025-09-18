@@ -25,7 +25,7 @@ export default function HeroSection() {
             <a 
               href={resumePdf}
               download="Harsh_Patel_Resume.pdf"
-              className="inline-flex items-center px-6 py-3 bg-destructive text-destructive-foreground rounded-lg hover:bg-destructive/90 transition-colors font-medium"
+              className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
               data-testid="button-download-resume"
             >
               <i className="fas fa-download mr-2"></i>
