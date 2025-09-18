@@ -35,7 +35,7 @@ export default function HeroSection() {
           <div className="flex justify-center space-x-6">
             <a 
               href="#" 
-              className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+              className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
               data-testid="button-github"
             >
               <i className="fab fa-github mr-2"></i>
