@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-card border-t border-border py-12 mt-16" data-testid="footer">
+    <footer id="contact" className="bg-card border-t border-border py-12 mt-16" data-testid="footer">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h3 className="text-lg font-semibold text-foreground mb-4" data-testid="footer-title">

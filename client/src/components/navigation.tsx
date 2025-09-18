@@ -25,6 +25,9 @@ export default function Navigation() {
             <a href="#interests" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-interests">
               Interests
             </a>
+            <a href="#contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="link-contact">
+              Contact
+            </a>
           </div>
         </div>
       </div>
