@@ -14,15 +14,15 @@ export default function FinanceSection() {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start" data-testid="investment-focus-1">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Active investor in stocks and ETFs with focus on long-term value creation</span>
+                <span>Long-term value investing approach focused on sustainable growth companies</span>
               </li>
               <li className="flex items-start" data-testid="investment-focus-2">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Daily analysis of economic markets, financial trends, and macroeconomic indicators to inform investment decisions</span>
+                <span>Portfolio allocation across technology stocks, small-cap growth, and S&P 500 index funds</span>
               </li>
               <li className="flex items-start" data-testid="investment-focus-3">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Strategic investment in technology stocks, small caps, and S&P 500 index funds</span>
+                <span>Disciplined risk management with diversification across market sectors and asset classes</span>
               </li>
             </ul>
           </div>
@@ -34,15 +34,15 @@ export default function FinanceSection() {
             <ul className="space-y-3 text-muted-foreground">
               <li className="flex items-start" data-testid="market-analysis-1">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>In-depth research on company earnings, sector performance, and market valuations</span>
+                <span>Daily monitoring of macroeconomic trends, market sentiment, and global financial indicators</span>
               </li>
               <li className="flex items-start" data-testid="market-analysis-2">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Technical analysis skills for identifying market entry and exit points</span>
+                <span>Technical chart analysis and quantitative methods for optimal trade timing</span>
               </li>
               <li className="flex items-start" data-testid="market-analysis-3">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Understanding of financial statements and company valuation methods</span>
+                <span>Fundamental analysis using financial statements, earnings reports, and valuation models</span>
               </li>
             </ul>
           </div>
