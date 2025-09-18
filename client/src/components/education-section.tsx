@@ -27,7 +27,7 @@ export default function EducationSection() {
           <h4 className="font-medium text-foreground mb-3" data-testid="courses-title">
             Relevant Courses:
           </h4>
-          <div className="flex flex-nowrap gap-2 overflow-x-auto" data-testid="courses-list">
+          <div className="flex flex-wrap gap-2" data-testid="courses-list">
             <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
               Data Mining
             </span>

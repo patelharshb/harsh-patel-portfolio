@@ -34,9 +34,7 @@ export default function HeroSection() {
           </div>
           <div className="flex justify-center space-x-6">
             <a 
-              href="https://github.com/harshpatel010202" 
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#" 
               className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
               data-testid="button-github"
             >
@@ -44,9 +42,7 @@ export default function HeroSection() {
               GitHub
             </a>
             <a 
-              href="https://www.linkedin.com/in/harsh-patel2020/" 
-              target="_blank"
-              rel="noopener noreferrer"
+              href="#" 
               className="inline-flex items-center px-6 py-3 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
               data-testid="button-linkedin"
             >
