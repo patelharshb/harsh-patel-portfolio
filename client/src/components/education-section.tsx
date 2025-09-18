@@ -40,6 +40,12 @@ export default function EducationSection() {
             <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
               Massive Datasets
             </span>
+            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+              Database Systems
+            </span>
+            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+              Data Structures and Algorithms
+            </span>
           </div>
         </div>
       </div>
