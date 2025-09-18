@@ -14,7 +14,7 @@ export default function SkillsSection() {
   ];
 
   const aws = [
-    "EC2", "ECS", "ECR", "SNS", "S3", "Redshift", "Lambda", "SageMaker"
+    "EC2", "ECS", "ECR", "SNS", "S3", "Redshift", "Lambda", "SageMaker", "IAM", "VPC", "CloudWatch"
   ];
 
   return (
