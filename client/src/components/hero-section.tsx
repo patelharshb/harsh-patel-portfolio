@@ -8,8 +8,12 @@ export default function HeroSection() {
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="hero-title">
             Harsh Patel
           </h1>
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto" data-testid="hero-subtitle">
+          <p className="text-xl sm:text-2xl text-muted-foreground mb-6 max-w-3xl mx-auto" data-testid="hero-subtitle">
             Software Engineering Graduate | Full-Stack Developer | Finance Enthusiast
+          </p>
+          <p className="text-lg text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed" data-testid="hero-summary">
+            Specializing in Artificial Intelligence and Machine Learning with extensive experience in data analysis and development. 
+            Passionate about leveraging technical expertise alongside finance interests to create innovative solutions at the intersection of technology and financial markets.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <div className="flex items-center gap-2 text-muted-foreground" data-testid="contact-phone">
