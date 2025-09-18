@@ -22,7 +22,7 @@ export default function FinanceSection() {
               </li>
               <li className="flex items-start" data-testid="investment-focus-3">
                 <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
-                <span>Portfolio diversification across technology, healthcare, and emerging markets</span>
+                <span>Strategic investment in technology stocks, small caps, and S&P 500 index funds</span>
               </li>
             </ul>
           </div>
