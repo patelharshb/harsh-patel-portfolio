@@ -23,7 +23,6 @@ export default function Navigation() {
             className="font-bold text-lg text-primary-foreground bg-primary rounded-full w-10 h-10 flex items-center justify-center hover:bg-primary/90 transition-colors cursor-pointer shadow-sm" 
             data-testid="nav-logo"
             onClick={() => {
-              window.location.reload();
               window.scrollTo({ top: 0, behavior: 'smooth' });
             }}
           >
