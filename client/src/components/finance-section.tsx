@@ -72,7 +72,7 @@ export default function FinanceSection() {
             <div className="flex flex-col items-center p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors" data-testid="hobby-tennis">
               <i className="fas fa-trophy text-2xl text-primary mb-3"></i>
               <h4 className="font-medium text-foreground mb-2">Tennis</h4>
-              <p className="text-sm text-muted-foreground text-center">Grand Slam sport that improves focus and agility</p>
+              <p className="text-sm text-muted-foreground text-center">Fast-paced sport that improves focus and agility</p>
             </div>
           </div>
         </div>
