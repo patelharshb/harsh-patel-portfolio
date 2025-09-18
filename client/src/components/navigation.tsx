@@ -20,7 +20,7 @@ export default function Navigation() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div 
-            className="font-bold text-lg text-white bg-primary rounded-full w-10 h-10 flex items-center justify-center hover:bg-primary/90 transition-colors cursor-pointer" 
+            className="font-bold text-lg text-white bg-gradient-to-br from-teal-400 to-cyan-500 rounded-full w-10 h-10 flex items-center justify-center hover:from-teal-500 hover:to-cyan-600 transition-all duration-300 cursor-pointer shadow-lg" 
             data-testid="nav-logo"
             onClick={() => {
               window.location.reload();
