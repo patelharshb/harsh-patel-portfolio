@@ -33,6 +33,13 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: undefined,
+        assetFileNames: (assetInfo) => {
+          // Keep PDF files with their original names
+          if (assetInfo.name && assetInfo.name.endsWith('.pdf')) {
+            return 'assets/[name][extname]';
+          }
+          return 'assets/[name]-[hash][extname]';
+        },
       },
     },
   },

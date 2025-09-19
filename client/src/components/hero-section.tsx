@@ -28,7 +28,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
             <a 
               href={resumePdf}
-              download="Harsh_Patel_Resume.pdf"
+              download="Harsh Patel Resume.pdf"
               className="inline-flex items-center px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-medium"
               data-testid="button-download-resume"
             >
