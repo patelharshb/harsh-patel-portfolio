@@ -5,7 +5,27 @@ export default function FinanceSection() {
         Interests & Personal Hobbies
       </h2>
       <div className="bg-card rounded-xl shadow-sm border border-border p-8" data-testid="finance-card">
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center" data-testid="technology-interests-title">
+              <i className="fas fa-microchip text-primary mr-2"></i>
+              Technology Interests
+            </h3>
+            <ul className="space-y-3 text-muted-foreground">
+              <li className="flex items-start" data-testid="technology-interests-1">
+                <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
+                <span>Staying updated on new inventions and innovations in software development</span>
+              </li>
+              <li className="flex items-start" data-testid="technology-interests-2">
+                <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
+                <span>Following advancements in data science, machine learning, and analytics technologies</span>
+              </li>
+              <li className="flex items-start" data-testid="technology-interests-3">
+                <i className="fas fa-circle text-xs text-primary mt-2 mr-3 flex-shrink-0"></i>
+                <span>Exploring quantum computing breakthroughs and their potential applications</span>
+              </li>
+            </ul>
+          </div>
           <div>
             <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center" data-testid="investment-focus-title">
               <i className="fas fa-chart-line text-primary mr-2"></i>
@@ -53,12 +73,7 @@ export default function FinanceSection() {
             <i className="fas fa-heart text-primary mr-2"></i>
             Personal Activities & Sports
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-            <div className="flex flex-col items-center p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors" data-testid="hobby-technology">
-              <i className="fas fa-microchip text-2xl text-primary mb-3"></i>
-              <h4 className="font-medium text-foreground mb-2">Technology Innovation</h4>
-              <p className="text-sm text-muted-foreground text-center">Staying updated on new inventions and innovations in software, data, and quantum computing</p>
-            </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <div className="flex flex-col items-center p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors" data-testid="hobby-finance">
               <i className="fas fa-book-open text-2xl text-primary mb-3"></i>
               <h4 className="font-medium text-foreground mb-2">Reading about Finance</h4>
