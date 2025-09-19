@@ -53,7 +53,12 @@ export default function FinanceSection() {
             <i className="fas fa-heart text-primary mr-2"></i>
             Personal Activities & Sports
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+            <div className="flex flex-col items-center p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors" data-testid="hobby-technology">
+              <i className="fas fa-microchip text-2xl text-primary mb-3"></i>
+              <h4 className="font-medium text-foreground mb-2">Technology Innovation</h4>
+              <p className="text-sm text-muted-foreground text-center">Staying updated on new inventions and innovations in software, data, and quantum computing</p>
+            </div>
             <div className="flex flex-col items-center p-4 rounded-lg bg-secondary/30 hover:bg-secondary/50 transition-colors" data-testid="hobby-finance">
               <i className="fas fa-book-open text-2xl text-primary mb-3"></i>
               <h4 className="font-medium text-foreground mb-2">Reading about Finance</h4>
