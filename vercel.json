@@ -4,6 +4,10 @@
     {
       "src": "client/index.html",
       "use": "@vercel/static"
+    },
+    {
+      "src": "api/index.ts",
+      "use": "@vercel/node"
     }
   ],
   "routes": [

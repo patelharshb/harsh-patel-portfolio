@@ -1,22 +1,35 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import express from 'express';
 
-const app = express();
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+export default function handler(req: VercelRequest, res: VercelResponse) {
+  // Set CORS headers
+  res.setHeader('Access-Control-Allow-Credentials', 'true');
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  res.setHeader('Access-Control-Allow-Methods', 'GET,OPTIONS,PATCH,DELETE,POST,PUT');
+  res.setHeader('Access-Control-Allow-Headers', 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version');
 
-// Basic API routes for your portfolio
-app.get('/api/health', (req, res) => {
-  res.json({ status: 'ok', message: 'Portfolio API is running' });
-});
+  // Handle preflight requests
+  if (req.method === 'OPTIONS') {
+    res.status(200).end();
+    return;
+  }
 
-app.get('/api/contact', (req, res) => {
-  res.json({
-    email: 'pharshb1781@gmail.com',
-    github: 'https://github.com/harshpatel010202',
-    linkedin: 'https://www.linkedin.com/in/harsh-patel2020/'
-  });
-});
+  // Handle different API routes
+  if (req.method === 'GET') {
+    if (req.url === '/api/health') {
+      res.status(200).json({ status: 'ok', message: 'Portfolio API is running' });
+      return;
+    }
+    
+    if (req.url === '/api/contact') {
+      res.status(200).json({
+        email: 'pharshb1781@gmail.com',
+        github: 'https://github.com/harshpatel010202',
+        linkedin: 'https://www.linkedin.com/in/harsh-patel2020/'
+      });
+      return;
+    }
+  }
 
-// Export the Express app as a Vercel serverless function
-export default app;
+  // Default response
+  res.status(404).json({ error: 'Not found' });
+}
