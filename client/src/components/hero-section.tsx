@@ -1,4 +1,4 @@
-import resumePdf from "@assets/Harsh Patel Resume_1758227471827.pdf";
+import resumePdf from "@assets/Harsh Patel Resume.pdf";
 
 export default function HeroSection() {
   return (
