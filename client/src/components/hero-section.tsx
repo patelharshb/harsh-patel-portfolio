@@ -16,10 +16,14 @@ export default function HeroSection() {
             Passionate about leveraging technical expertise alongside finance interests to create innovative solutions at the intersection of technology and financial markets.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
-            <div className="flex items-center gap-2 text-muted-foreground" data-testid="contact-email">
+            <a 
+              href="mailto:pharshb1781@gmail.com" 
+              className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors cursor-pointer" 
+              data-testid="contact-email"
+            >
               <i className="fas fa-envelope text-primary"></i>
               <span>pharshb1781@gmail.com</span>
-            </div>
+            </a>
           </div>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
             <a 
