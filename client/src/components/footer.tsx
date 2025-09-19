@@ -19,14 +19,6 @@ export default function Footer() {
               <i className="fas fa-envelope mr-2"></i>
               Email Me
             </a>
-            <a 
-              href="tel:+12044418570" 
-              className="inline-flex items-center px-4 py-2 bg-accent text-accent-foreground rounded-lg hover:bg-accent/80 transition-colors"
-              data-testid="button-call"
-            >
-              <i className="fas fa-phone mr-2"></i>
-              Call Me
-            </a>
           </div>
           <p className="text-sm text-muted-foreground" data-testid="footer-copyright">
             © 2025 Harsh Patel. Built with passion for great user experiences.
