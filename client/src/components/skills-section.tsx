@@ -9,8 +9,8 @@ export default function SkillsSection() {
   ];
 
   const tools = [
-    "Git", "Microsoft Suite", "Sisense", "Secoda", "Docker", "Terraform", 
-    "Apache Airflow", "Linux", "Amplitude", "Selenium", "SQLite", "PostgreSQL"
+    "Git", "Apache Airflow", "Sisense", "Secoda", "Docker", "Terraform", 
+    "Microsoft Suite", "Linux", "Amplitude", "Selenium", "SQLite", "PostgreSQL"
   ];
 
   const aws = [
