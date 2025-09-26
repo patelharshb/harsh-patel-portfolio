@@ -4,12 +4,12 @@ export default function SkillsSection() {
   ];
 
   const frameworks = [
-    "Flask", "Vue.js", "Node.js", "Express.js", "PyQt5", "Matplotlib", 
+    "Flask", "Vue.js", "Node.js", "Express.js", "PyQt5", "Matplotlib", "TensorFlow",
     "Pandas", "PySpark", "NumPy", "Scikit-learn"
   ];
 
   const tools = [
-    "Git", "Apache Airflow", "Sisense", "Secoda", "Docker", "Terraform", 
+    "Git", "GitLab", "GitHub Actions","Apache Airflow", "Sisense", "Secoda", "Jira", "Docker", "Terraform", 
     "Microsoft Suite", "Linux", "Amplitude", "Selenium", "SQLite", "PostgreSQL"
   ];
 
