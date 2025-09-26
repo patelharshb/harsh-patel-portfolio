@@ -9,7 +9,7 @@ export default function SkillsSection() {
   ];
 
   const tools = [
-    "Git", "GitLab", "GitHub Actions","Apache Airflow", "Sisense", "Secoda", "Jira", "Docker", "Terraform", 
+    "GitLab", "GitHub Actions","Apache Airflow", "Jira", "Sisense", "Secoda", "Docker", "Terraform", 
     "Microsoft Suite", "Linux", "Amplitude", "Selenium", "SQLite", "PostgreSQL"
   ];
 
