@@ -194,7 +194,7 @@ This project is for personal use. Feel free to use as inspiration for your own p
 
 ## 📞 Contact
 
-- **Email**: pharshb1781@gmail.com
+- **Email**: harshbpatel1781@gmail.com
 - **GitHub**: [harshpatel010202](https://github.com/harshpatel010202)
 - **LinkedIn**: [Harsh Patel](https://www.linkedin.com/in/harsh-patel2020/)
 

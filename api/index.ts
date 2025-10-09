@@ -22,7 +22,7 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     
     if (req.url === '/api/contact') {
       res.status(200).json({
-        email: 'pharshb1781@gmail.com',
+        email: 'harshbpatel1781@gmail.com',
         github: 'https://github.com/harshpatel010202',
         linkedin: 'https://www.linkedin.com/in/harsh-patel2020/'
       });

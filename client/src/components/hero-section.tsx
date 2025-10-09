@@ -17,12 +17,12 @@ export default function HeroSection() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <a 
-              href="mailto:pharshb1781@gmail.com" 
+              href="mailto:harshbpatel1781@gmail.com" 
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors cursor-pointer" 
               data-testid="contact-email"
             >
               <i className="fas fa-envelope text-primary"></i>
-              <span>pharshb1781@gmail.com</span>
+              <span>harshbpatel1781@gmail.com</span>
             </a>
           </div>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">

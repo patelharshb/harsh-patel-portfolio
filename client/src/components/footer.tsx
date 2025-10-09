@@ -12,7 +12,7 @@ export default function Footer() {
           </p>
           <div className="flex justify-center space-x-6 mb-6">
             <a 
-              href="mailto:pharshb1781@gmail.com" 
+              href="mailto:harshbpatel1781@gmail.com" 
               className="inline-flex items-center px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
               data-testid="button-email"
             >
