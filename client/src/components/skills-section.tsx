@@ -4,7 +4,7 @@ export default function SkillsSection() {
   ];
 
   const frameworks = [
-    "Flask", "Vue.js", "Node.js", "Express.js", "PyQt5", "Matplotlib", "TensorFlow",
+    "Vue.js", "Node.js", "Express.js", "React", "Flask","PyQt5", "Matplotlib", "TensorFlow",
     "Pandas", "PySpark", "NumPy", "Scikit-learn"
   ];
 
