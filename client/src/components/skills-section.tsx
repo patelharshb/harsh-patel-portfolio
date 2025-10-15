@@ -1,6 +1,6 @@
 export default function SkillsSection() {
   const languages = [
-    "Python", "Java", "C", "SQL", "R", "MATLAB", "JavaScript", "HTML", "CSS"
+    "Python", "Java", "C", "SQL", "R", "JavaScript", "HTML", "CSS"
   ];
 
   const frameworks = [
@@ -9,7 +9,7 @@ export default function SkillsSection() {
   ];
 
   const tools = [
-    "Git", "Sisense", "Snowflake", "Databricks", "Terraform", "Docker", "Apache Airflow", "Jira", "Amplitude", "Selenium", "Microsoft Suite", "Linux", "SQLite", "PostgreSQL",
+    "Git", "PowerBI", "Tableau", "Sisense", "Terraform", "Docker", "Apache Airflow", "Jira", "Selenium", "Linux", "Microsoft Suite", "SQLite", "PostgreSQL"
   ];
 
   const aws = [
