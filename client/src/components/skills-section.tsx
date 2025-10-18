@@ -1,6 +1,6 @@
 export default function SkillsSection() {
   const languages = [
-    "Python", "Java", "C", "C++", "C#", "SQL", "R", "JavaScript", "HTML", "CSS"
+    "Python", "Java", "C", "C++", "C#", "SQL", "R", "VB.NET", "JavaScript", "HTML", "CSS"
   ];
 
   const frameworks = [
