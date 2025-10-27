@@ -25,8 +25,9 @@ export default function SkillsSection() {
       <h2 className="text-3xl font-bold text-foreground mb-8 text-center" data-testid="skills-title">
         Technical Skills
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
-        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 rounded-xl shadow-lg border border-blue-200 dark:border-blue-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-languages">
+      <div className="max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 rounded-xl shadow-lg border border-blue-200 dark:border-blue-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-languages">
           <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-100 mb-4 flex items-center">
             <i className="fas fa-code text-blue-600 dark:text-blue-400 mr-2 text-xl"></i>
             Languages
@@ -44,7 +45,7 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-green-50 to-emerald-100 dark:from-green-900/30 dark:to-emerald-900/30 rounded-xl shadow-lg border border-green-200 dark:border-green-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-frameworks">
+        <div className="bg-gradient-to-br from-green-50 to-emerald-100 dark:from-green-900/30 dark:to-emerald-900/30 rounded-xl shadow-lg border border-green-200 dark:border-green-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-frameworks">
           <h3 className="text-lg font-semibold text-green-900 dark:text-green-100 mb-4 flex items-center">
             <i className="fas fa-layer-group text-green-600 dark:text-green-400 mr-2 text-xl"></i>
             Frameworks
@@ -62,7 +63,7 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-purple-50 to-violet-100 dark:from-purple-900/30 dark:to-violet-900/30 rounded-xl shadow-lg border border-purple-200 dark:border-purple-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-tools">
+        <div className="bg-gradient-to-br from-purple-50 to-violet-100 dark:from-purple-900/30 dark:to-violet-900/30 rounded-xl shadow-lg border border-purple-200 dark:border-purple-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-tools">
           <h3 className="text-lg font-semibold text-purple-900 dark:text-purple-100 mb-4 flex items-center">
             <i className="fas fa-tools text-purple-600 dark:text-purple-400 mr-2 text-xl"></i>
             Tools & Databases
@@ -80,7 +81,7 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-amber-50 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-xl shadow-lg border border-amber-200 dark:border-amber-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-testing">
+        <div className="bg-gradient-to-br from-amber-50 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-xl shadow-lg border border-amber-200 dark:border-amber-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-testing">
           <h3 className="text-lg font-semibold text-amber-900 dark:text-amber-100 mb-4 flex items-center">
             <i className="fas fa-vial text-amber-600 dark:text-amber-400 mr-2 text-xl"></i>
             Testing & QA
@@ -98,7 +99,7 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-orange-50 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-xl shadow-lg border border-orange-200 dark:border-orange-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-aws">
+        <div className="bg-gradient-to-br from-orange-50 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-xl shadow-lg border border-orange-200 dark:border-orange-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-aws">
           <h3 className="text-lg font-semibold text-orange-900 dark:text-orange-100 mb-4 flex items-center">
             <i className="fab fa-aws text-orange-600 dark:text-orange-400 mr-2 text-xl"></i>
             AWS Services
@@ -114,6 +115,7 @@ export default function SkillsSection() {
               </span>
             ))}
           </div>
+        </div>
         </div>
       </div>
     </section>
