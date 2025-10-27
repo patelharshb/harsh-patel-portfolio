@@ -12,6 +12,10 @@ export default function SkillsSection() {
     "Git", "Jira", "Snowflake", "Amplitude", "Sisense", "Terraform", "Docker", "Apache Airflow", "Linux", "Selenium", "PostgreSQL", "Microsoft Suite", "SQLite"
   ];
 
+  const testing = [
+    "unittest", "pytest", "Postman", "JMeter", "SonarQube", "JUnit", "Selenium", "Cucumber", "Groovy", "Jest"
+  ];
+
   const aws = [
     "EC2", "ECS", "ECR", "SNS", "S3", "Redshift", "Lambda", "SageMaker", "VPC", "CloudWatch", "CloudFormation"
   ];
@@ -21,7 +25,7 @@ export default function SkillsSection() {
       <h2 className="text-3xl font-bold text-foreground mb-8 text-center" data-testid="skills-title">
         Technical Skills
       </h2>
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
         <div className="bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/30 dark:to-indigo-900/30 rounded-xl shadow-lg border border-blue-200 dark:border-blue-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-languages">
           <h3 className="text-lg font-semibold text-blue-900 dark:text-blue-100 mb-4 flex items-center">
             <i className="fas fa-code text-blue-600 dark:text-blue-400 mr-2 text-xl"></i>
@@ -76,6 +80,23 @@ export default function SkillsSection() {
           </div>
         </div>
         
+        <div className="bg-gradient-to-br from-amber-50 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-xl shadow-lg border border-amber-200 dark:border-amber-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-testing">
+          <h3 className="text-lg font-semibold text-amber-900 dark:text-amber-100 mb-4 flex items-center">
+            <i className="fas fa-vial text-amber-600 dark:text-amber-400 mr-2 text-xl"></i>
+            Testing & QA
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {testing.map((test, index) => (
+              <span 
+                key={index} 
+                className="px-3 py-1.5 bg-amber-600 text-white rounded-lg text-sm font-medium hover:bg-amber-700 transition-colors duration-200 cursor-default shadow-sm"
+                data-testid={`skill-testing-${index}`}
+              >
+                {test}
+              </span>
+            ))}
+          </div>
+        </div>
         
         <div className="bg-gradient-to-br from-orange-50 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-xl shadow-lg border border-orange-200 dark:border-orange-700 p-6 hover:shadow-xl transition-all duration-300" data-testid="skills-aws">
           <h3 className="text-lg font-semibold text-orange-900 dark:text-orange-100 mb-4 flex items-center">
