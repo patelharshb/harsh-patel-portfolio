@@ -17,7 +17,7 @@ export default function ProjectsSection() {
       ]
     },
     {
-      name: "WhatsApp",
+      name: "MessagingApp",
       achievements: [
         "Developed a real-time Android messaging application using Firebase to support one-on-one and group chats with instant synchronization, presence tracking, and file sharing, validated with 5 to 10 active test users.",
         "Implemented secure authentication workflows with email and phone verification through Firebase Authentication, improving sign-in consistency and reducing login-related issues identified during early testing.",
