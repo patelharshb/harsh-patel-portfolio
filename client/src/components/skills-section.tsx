@@ -102,24 +102,6 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-rose-50 to-pink-100 dark:from-rose-900/30 dark:to-pink-900/30 rounded-xl shadow-lg border border-rose-200 dark:border-rose-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-soft-skills">
-          <h3 className="text-lg font-semibold text-rose-900 dark:text-rose-100 mb-4 flex items-center">
-            <i className="fas fa-users text-rose-600 dark:text-rose-400 mr-2 text-xl"></i>
-            Soft Skills
-          </h3>
-          <div className="flex flex-wrap gap-2">
-            {softSkills.map((skill, index) => (
-              <span 
-                key={index} 
-                className="px-3 py-1.5 bg-rose-600 text-white rounded-lg text-sm font-medium hover:bg-rose-700 transition-colors duration-200 cursor-default shadow-sm"
-                data-testid={`skill-soft-${index}`}
-              >
-                {skill}
-              </span>
-            ))}
-          </div>
-        </div>
-        
         <div className="bg-gradient-to-br from-orange-50 to-red-100 dark:from-orange-900/30 dark:to-red-900/30 rounded-xl shadow-lg border border-orange-200 dark:border-orange-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-aws">
           <h3 className="text-lg font-semibold text-orange-900 dark:text-orange-100 mb-4 flex items-center">
             <i className="fab fa-aws text-orange-600 dark:text-orange-400 mr-2 text-xl"></i>
@@ -133,6 +115,24 @@ export default function SkillsSection() {
                 data-testid={`skill-aws-${index}`}
               >
                 {service}
+              </span>
+            ))}
+          </div>
+        </div>
+        
+        <div className="bg-gradient-to-br from-rose-50 to-pink-100 dark:from-rose-900/30 dark:to-pink-900/30 rounded-xl shadow-lg border border-rose-200 dark:border-rose-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-soft-skills">
+          <h3 className="text-lg font-semibold text-rose-900 dark:text-rose-100 mb-4 flex items-center">
+            <i className="fas fa-users text-rose-600 dark:text-rose-400 mr-2 text-xl"></i>
+            Soft Skills
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {softSkills.map((skill, index) => (
+              <span 
+                key={index} 
+                className="px-3 py-1.5 bg-rose-600 text-white rounded-lg text-sm font-medium hover:bg-rose-700 transition-colors duration-200 cursor-default shadow-sm"
+                data-testid={`skill-soft-${index}`}
+              >
+                {skill}
               </span>
             ))}
           </div>
