@@ -28,25 +28,25 @@ export default function EducationSection() {
             Relevant Courses:
           </h4>
           <div className="flex flex-wrap gap-2" data-testid="courses-list">
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               Data Mining
             </span>
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               Data Pattern and Recognition
             </span>
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               Artificial Intelligence
             </span>
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               Massive Datasets
             </span>
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               Database Systems
             </span>
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               DSA
             </span>
-            <span className="px-3 py-1 bg-secondary text-secondary-foreground rounded-full text-sm">
+            <span className="px-3 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100 rounded-full text-sm">
               Operating Systems
             </span>
           </div>

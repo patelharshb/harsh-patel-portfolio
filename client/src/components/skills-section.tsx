@@ -4,11 +4,11 @@ export default function SkillsSection() {
   ];
 
   const frameworks = [
-    "Vue.js", "Node.js", "Express.js", "React", "Flask","PyQt5", "Matplotlib", "Pandas", "PySpark", "NumPy"
+    "Vue.js", "Node.js", "Express.js", "React", "Flask", "PyQt5", "Matplotlib", "Pandas", "PySpark", "NumPy"
   ];
 
   const tools = [
-    "Git", "Jira", "CI/CD", "Power BI", "Sisense", "Microsoft Suite", "Terraform", "Docker", "Airflow", "Databricks", "Wireshark", "SQLite", "PostgreSQL", "Snowflake", "Firebase"
+    "Git", "Jira", "CI/CD", "Power BI", "Sisense", "Microsoft Suite", "Terraform", "Docker", "Airflow", "Databricks", "Wireshark", "SQLite", "PostgreSQL", "Snowflake"
   ];
 
   const testing = [
@@ -19,12 +19,12 @@ export default function SkillsSection() {
     "Replit", "Cursor", "Claude", "ChatGPT", "Perplexity", "Gemini", "Copilot"
   ];
 
-  const softSkills = [
-    "Communication", "Collaboration", "Research & Analysis", "Ownership", "Learning Agility"
-  ];
-
   const aws = [
     "EC2", "ECS", "ECR", "SNS", "S3", "Redshift", "Lambda", "SageMaker", "VPC", "CloudWatch", "CloudFormation"
+  ];
+
+  const softSkills = [
+    "Communication", "Collaboration", "Research & Analysis", "Ownership", "Learning Agility"
   ];
 
   return (

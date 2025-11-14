@@ -46,9 +46,11 @@ export default function ProjectsSection() {
             className="bg-card rounded-xl shadow-sm border border-border p-8"
             data-testid={`project-card-${index}`}
           >
-            <h3 className="text-xl font-semibold text-foreground mb-4" data-testid={`project-name-${index}`}>
-              {project.name}
-            </h3>
+            <div className="mb-6">
+              <h3 className="text-xl font-semibold text-foreground" data-testid={`project-name-${index}`}>
+                {project.name}
+              </h3>
+            </div>
             <ul className="space-y-3 text-muted-foreground">
               {project.achievements.map((achievement, achievementIndex) => (
                 <li 
