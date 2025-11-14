@@ -11,6 +11,10 @@ export default function SkillsSection() {
     "Git", "Jira", "CI/CD", "Power BI", "Sisense", "Microsoft Suite", "Terraform", "Docker", "Airflow", "Databricks", "Wireshark", "SQLite", "PostgreSQL", "Snowflake"
   ];
 
+  const testing = [
+    "unittest", "pytest", "Selenium", "Postman", "Jest", "JMeter", "SonarQube", "JUnit", "Cucumber", "Groovy"
+  ];
+
   const llmTools = [
     "Replit", "Cursor", "Claude", "ChatGPT", "Perplexity", "Gemini", "Copilot"
   ];
@@ -26,7 +30,7 @@ export default function SkillsSection() {
   return (
     <section id="skills" className="py-16 fade-in stagger-2">
       <h2 className="text-3xl font-bold text-foreground mb-8 text-center" data-testid="skills-title">
-        Technical Skills
+        Technical & Soft Skills
       </h2>
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -79,6 +83,24 @@ export default function SkillsSection() {
                 data-testid={`skill-tool-${index}`}
               >
                 {tool}
+              </span>
+            ))}
+          </div>
+        </div>
+        
+        <div className="bg-gradient-to-br from-amber-50 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-xl shadow-lg border border-amber-200 dark:border-amber-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-testing">
+          <h3 className="text-lg font-semibold text-amber-900 dark:text-amber-100 mb-4 flex items-center">
+            <i className="fas fa-vial text-amber-600 dark:text-amber-400 mr-2 text-xl"></i>
+            Testing
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {testing.map((test, index) => (
+              <span 
+                key={index} 
+                className="px-3 py-1.5 bg-amber-600 text-white rounded-lg text-sm font-medium hover:bg-amber-700 transition-colors duration-200 cursor-default shadow-sm"
+                data-testid={`skill-testing-${index}`}
+              >
+                {test}
               </span>
             ))}
           </div>
