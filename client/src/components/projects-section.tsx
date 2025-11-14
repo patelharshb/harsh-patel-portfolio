@@ -51,7 +51,7 @@ export default function ProjectsSection() {
                 {project.name}
               </h3>
             </div>
-            <ul className="space-y-3 text-muted-foreground">
+            <ul className="space-y-3 text-foreground">
               {project.achievements.map((achievement, achievementIndex) => (
                 <li 
                   key={achievementIndex} 

@@ -10,12 +10,12 @@ export default function EducationSection() {
             <h3 className="text-xl font-semibold text-foreground" data-testid="degree-title">
               Bachelor of Software Engineering
             </h3>
-            <p className="text-muted-foreground" data-testid="university-name">
+            <p className="text-foreground" data-testid="university-name">
               University of Victoria
             </p>
           </div>
           <div className="text-right mt-2 md:mt-0">
-            <p className="text-muted-foreground" data-testid="education-period">
+            <p className="text-foreground" data-testid="education-period">
               Graduated: Nov 2025
             </p>
             <p className="text-sm text-primary font-medium" data-testid="gpa">

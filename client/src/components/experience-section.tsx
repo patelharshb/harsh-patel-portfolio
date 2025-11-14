@@ -59,11 +59,11 @@ export default function ExperienceSection() {
                   {exp.company}
                 </p>
               </div>
-              <div className="text-muted-foreground mt-2 lg:mt-0">
+              <div className="text-foreground mt-2 lg:mt-0">
                 <p data-testid={`experience-period-${index}`}>{exp.period}</p>
               </div>
             </div>
-            <ul className="space-y-3 text-muted-foreground">
+            <ul className="space-y-3 text-foreground">
               {exp.achievements.map((achievement, achievementIndex) => (
                 <li 
                   key={achievementIndex} 
