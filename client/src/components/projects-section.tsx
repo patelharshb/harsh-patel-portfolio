@@ -23,6 +23,14 @@ export default function ProjectsSection() {
         "Implemented secure authentication workflows with email and phone verification through Firebase Authentication, improving sign-in consistency and reducing login-related issues identified during early testing.",
         "Designed a scalable messaging architecture using Firebase Realtime Database and Storage with a tabbed interface for chats, contacts, groups, and requests, and optimized RecyclerView adapters to minimize UI stutters on mid-range devices."
       ]
+    },
+    {
+      name: "WeatherApp",
+      achievements: [
+        "Built a native Android weather app using Retrofit and RxJava to fetch real-time weather and 5-day forecasts from the OpenWeatherMap API, tested across 8 to 12 different cities to verify data accuracy and API response handling.",
+        "Implemented GPS-based location detection with Google Play Services to automatically retrieve local weather, reducing the need for manual city searches and improving first-load accuracy during typical user testing.",
+        "Designed a multi-fragment interface with ViewPager and TabLayout, integrating city search with autocomplete and Picasso for weather icons, resulting in smoother UI updates and consistent performance on mid-range Android devices."
+      ]
     }
   ];
 
