@@ -84,16 +84,16 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-cyan-50 to-teal-100 dark:from-cyan-900/30 dark:to-teal-900/30 rounded-xl shadow-lg border border-cyan-200 dark:border-cyan-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-llm-tools">
-          <h3 className="text-lg font-semibold text-cyan-900 dark:text-cyan-100 mb-4 flex items-center">
-            <i className="fas fa-robot text-cyan-600 dark:text-cyan-400 mr-2 text-xl"></i>
+        <div className="bg-gradient-to-br from-fuchsia-50 to-purple-100 dark:from-fuchsia-900/30 dark:to-purple-900/30 rounded-xl shadow-lg border border-fuchsia-200 dark:border-fuchsia-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-llm-tools">
+          <h3 className="text-lg font-semibold text-fuchsia-900 dark:text-fuchsia-100 mb-4 flex items-center">
+            <i className="fas fa-robot text-fuchsia-600 dark:text-fuchsia-400 mr-2 text-xl"></i>
             LLM Tools
           </h3>
           <div className="flex flex-wrap gap-2">
             {llmTools.map((tool, index) => (
               <span 
                 key={index} 
-                className="px-3 py-1.5 bg-cyan-600 text-white rounded-lg text-sm font-medium hover:bg-cyan-700 transition-colors duration-200 cursor-default shadow-sm"
+                className="px-3 py-1.5 bg-fuchsia-600 text-white rounded-lg text-sm font-medium hover:bg-fuchsia-700 transition-colors duration-200 cursor-default shadow-sm"
                 data-testid={`skill-llm-${index}`}
               >
                 {tool}
