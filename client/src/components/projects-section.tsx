@@ -15,6 +15,14 @@ export default function ProjectsSection() {
         "Enhanced backend of microservices with unit testing to ensure robust functionality and performance consistency.",
         "Constructed a resilient data layer in the backend to ensure 0% data corruption by requiring all API calls to pass through this layer before interacting with the database."
       ]
+    },
+    {
+      name: "WhatsApp",
+      achievements: [
+        "Developed a real-time Android messaging application using Firebase to support one-on-one and group chats with instant synchronization, presence tracking, and file sharing, validated with 5 to 10 active test users.",
+        "Implemented secure authentication workflows with email and phone verification through Firebase Authentication, improving sign-in consistency and reducing login-related issues identified during early testing.",
+        "Designed a scalable messaging architecture using Firebase Realtime Database and Storage with a tabbed interface for chats, contacts, groups, and requests, and optimized RecyclerView adapters to minimize UI stutters on mid-range devices."
+      ]
     }
   ];
 
