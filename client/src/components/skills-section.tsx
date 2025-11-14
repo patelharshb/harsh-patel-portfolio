@@ -1,19 +1,22 @@
 export default function SkillsSection() {
   const languages = [
-    "Python", "Java", "C", "C++", "C#", "SQL", "R", "VB.NET", "JavaScript", "HTML", "CSS"
+    "Python", "Java", "JavaScript", "TypeScript", "C", "SQL", "HTML", "CSS"
   ];
 
   const frameworks = [
-    "Vue.js", "Node.js", "Express.js", "React", "Flask","PyQt5", "Matplotlib", "TensorFlow",
-    "Pandas", "PySpark", "NumPy", "Scikit-learn"
+    "Vue.js", "Node.js", "Express.js", "React", "Flask","PyQt5", "Matplotlib", "Pandas", "PySpark", "NumPy"
   ];
 
   const tools = [
-    "Git", "Jira", "Snowflake", "Amplitude", "Sisense", "Terraform", "Docker", "Apache Airflow", "Linux", "Selenium", "PostgreSQL", "Microsoft Suite", "SQLite"
+    "Git", "Jira", "CI/CD", "Power BI", "Sisense", "Microsoft Suite", "Terraform", "Docker", "Airflow", "Databricks", "Wireshark", "SQLite", "PostgreSQL", "Snowflake"
   ];
 
-  const testing = [
-    "unittest", "pytest", "Postman", "JMeter", "SonarQube", "JUnit", "Selenium", "Cucumber", "Groovy", "Jest"
+  const llmTools = [
+    "Replit", "Cursor", "Claude", "ChatGPT", "Perplexity", "Gemini", "Copilot"
+  ];
+
+  const softSkills = [
+    "Communication", "Collaboration", "Research & Analysis", "Ownership", "Learning Agility"
   ];
 
   const aws = [
@@ -81,19 +84,37 @@ export default function SkillsSection() {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-amber-50 to-yellow-100 dark:from-amber-900/30 dark:to-yellow-900/30 rounded-xl shadow-lg border border-amber-200 dark:border-amber-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-testing">
-          <h3 className="text-lg font-semibold text-amber-900 dark:text-amber-100 mb-4 flex items-center">
-            <i className="fas fa-vial text-amber-600 dark:text-amber-400 mr-2 text-xl"></i>
-            Testing & QA
+        <div className="bg-gradient-to-br from-cyan-50 to-teal-100 dark:from-cyan-900/30 dark:to-teal-900/30 rounded-xl shadow-lg border border-cyan-200 dark:border-cyan-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-llm-tools">
+          <h3 className="text-lg font-semibold text-cyan-900 dark:text-cyan-100 mb-4 flex items-center">
+            <i className="fas fa-robot text-cyan-600 dark:text-cyan-400 mr-2 text-xl"></i>
+            LLM Tools
           </h3>
           <div className="flex flex-wrap gap-2">
-            {testing.map((test, index) => (
+            {llmTools.map((tool, index) => (
               <span 
                 key={index} 
-                className="px-3 py-1.5 bg-amber-600 text-white rounded-lg text-sm font-medium hover:bg-amber-700 transition-colors duration-200 cursor-default shadow-sm"
-                data-testid={`skill-testing-${index}`}
+                className="px-3 py-1.5 bg-cyan-600 text-white rounded-lg text-sm font-medium hover:bg-cyan-700 transition-colors duration-200 cursor-default shadow-sm"
+                data-testid={`skill-llm-${index}`}
               >
-                {test}
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
+        
+        <div className="bg-gradient-to-br from-rose-50 to-pink-100 dark:from-rose-900/30 dark:to-pink-900/30 rounded-xl shadow-lg border border-rose-200 dark:border-rose-700 p-8 hover:shadow-xl transition-all duration-300" data-testid="skills-soft-skills">
+          <h3 className="text-lg font-semibold text-rose-900 dark:text-rose-100 mb-4 flex items-center">
+            <i className="fas fa-users text-rose-600 dark:text-rose-400 mr-2 text-xl"></i>
+            Soft Skills
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {softSkills.map((skill, index) => (
+              <span 
+                key={index} 
+                className="px-3 py-1.5 bg-rose-600 text-white rounded-lg text-sm font-medium hover:bg-rose-700 transition-colors duration-200 cursor-default shadow-sm"
+                data-testid={`skill-soft-${index}`}
+              >
+                {skill}
               </span>
             ))}
           </div>

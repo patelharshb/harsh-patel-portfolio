@@ -1,6 +1,14 @@
 export default function ProjectsSection() {
   const projects = [
     {
+      name: "Bhavsej",
+      achievements: [
+        "Built a full-stack TypeScript order management system with React and Express.js, using Replit and Cursor to accelerate development and support rapid iteration across 10+ frontend components and 10+ backend routes.",
+        "Integrated Google Sheets API and automated HTML email notifications to create a production-ready data pipeline that handled all customer orders, with ChatGPT and Copilot assisting in debugging and edge case handling.",
+        "Implemented core business logic covering 5-stage order lifecycle management, multiple pricing rules, time-window delivery scheduling, and full Zod-based validation across 10+ form fields, using Claude, Gemini, and Perplexity to refine logic and ensure consistency."
+      ]
+    },
+    {
       name: "VikesPlace",
       achievements: [
         "Engineered robust backend for a web application that mirrors the functionality of Facebook Marketplace.",
