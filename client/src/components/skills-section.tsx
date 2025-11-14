@@ -8,7 +8,7 @@ export default function SkillsSection() {
   ];
 
   const tools = [
-    "Git", "Jira", "CI/CD", "Power BI", "Sisense", "Microsoft Suite", "Terraform", "Docker", "Airflow", "Databricks", "Wireshark", "SQLite", "PostgreSQL", "Snowflake"
+    "Git", "Jira", "CI/CD", "Power BI", "Sisense", "Microsoft Suite", "Terraform", "Docker", "Airflow", "Databricks", "Wireshark", "SQLite", "PostgreSQL", "Snowflake", "Firebase"
   ];
 
   const testing = [
