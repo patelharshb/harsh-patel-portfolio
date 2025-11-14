@@ -16,7 +16,7 @@ export default function EducationSection() {
           </div>
           <div className="text-right mt-2 md:mt-0">
             <p className="text-muted-foreground" data-testid="education-period">
-              Sept 2019 - Aug 2025
+              Graduated: Nov 2025
             </p>
             <p className="text-sm text-primary font-medium" data-testid="gpa">
               GPA: 3.27 / 4.00
